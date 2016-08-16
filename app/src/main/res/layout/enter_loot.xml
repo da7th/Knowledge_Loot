@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="What don't I know?"
+        android:textSize="40sp" />
+
+    <EditText
+        android:gravity="center"
+        android:textSize="34sp"
+        android:id="@+id/entered_loot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        tools:text="here \ngoes \nthe \nnew info" />
+
+    <TextView
+        android:id="@+id/loot_confirmation_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@android:color/holo_blue_bright"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="This!"
+        android:textSize="40sp" />
+
+</LinearLayout>
